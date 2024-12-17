@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "mongoose": "^8.8.3",
+    "re": "^0.1.4"
+  },
+  "scripts": {
+"dev": "tsc && npm run copy-env && node --env-file=dist/secrate.env dist/app.js",
+"copy-env": "cp ./secrate.env dist/"
+}
+}
